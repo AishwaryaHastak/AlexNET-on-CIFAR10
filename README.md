@@ -1,4 +1,4 @@
-# AlexNET-on-CIFAR10-
+# AlexNET-on-CIFAR10
 Training AlexNET model on CIFAR10 Dataset
 
 
