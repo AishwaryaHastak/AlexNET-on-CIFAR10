@@ -13,7 +13,7 @@ To do this job, we will build a deep neural net model following the AlexNET arch
 
 There are four main parts to the code:
 
-Loading the Dataset: The images are of size 32*32 pixels. We transform all images to a common size of 227*227 to be able to implement the AlexNET architecture. We load the dataset available in the PyTorch Datasets class and define the training and testing dataloader.
+Loading the Dataset: The images are of size 32 * 32 pixels. We transform all images to a common size of 227 * 227 to be able to implement the AlexNET architecture. We load the dataset available in the PyTorch Datasets class and define the training and testing dataloader.
 
 Defining the model: We define a class for a custom model AlexNet that inherits nn.Module, which allows for automatic parameter initialization and tracking and gradient computation. We define the layers in the initialization method and define the forward pass. We will modify the last Fully connected layer to have 10 output classes, instead of 1000 as in the original architecture since we are using the CIFAR10 dataset.
 
